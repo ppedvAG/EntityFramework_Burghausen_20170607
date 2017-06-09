@@ -47,8 +47,24 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Tynamix.ObjectFiller, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tynamix.ObjectFiller.1.5.3\lib\net45\Tynamix.ObjectFiller.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeLoggerTest\Core\IChangeLogger.cs" />
+    <Compile Include="ChangeLoggerTest\Core\IChangesFinder.cs" />
+    <Compile Include="ChangeLoggerTest\Core\IDateTimeManager.cs" />
+    <Compile Include="ChangeLoggerTest\Core\IIdentityService.cs" />
+    <Compile Include="ChangeLoggerTest\Core\IUnitOfWork.cs" />
+    <Compile Include="ChangeLoggerTest\Core\Models\ChangeLog.cs" />
+    <Compile Include="ChangeLoggerTest\Data\ChangesFinder.cs" />
+    <Compile Include="ChangeLoggerTest\Data\ConsoleChangeLogger.cs" />
+    <Compile Include="ChangeLoggerTest\Data\DateTimeManager.cs" />
+    <Compile Include="ChangeLoggerTest\Data\DbChangeLogger.cs" />
+    <Compile Include="ChangeLoggerTest\Data\IdentityService.cs" />
+    <Compile Include="ChangeLoggerTest\Data\LogContext.cs" />
+    <Compile Include="ChangeLoggerTest\Data\UnitOfWork.cs" />
     <Compile Include="Configurations\ArticleConfiguration.cs" />
     <Compile Include="Configurations\OrderConfiguration.cs" />
     <Compile Include="Conventions\Datetime2Convention.cs" />

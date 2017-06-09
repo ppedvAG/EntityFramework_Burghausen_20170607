@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloCodeFirstFromDatabase"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloCodeFirst", "HalloCodeFirst\HalloCodeFirst.csproj", "{8A0E619D-F214-4104-A563-3A8889421544}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfInheritance", "EfInheritance\EfInheritance.csproj", "{829B4595-006E-41D6-8A9D-2E60CFD9329D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8A0E619D-F214-4104-A563-3A8889421544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A0E619D-F214-4104-A563-3A8889421544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A0E619D-F214-4104-A563-3A8889421544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829B4595-006E-41D6-8A9D-2E60CFD9329D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829B4595-006E-41D6-8A9D-2E60CFD9329D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829B4595-006E-41D6-8A9D-2E60CFD9329D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829B4595-006E-41D6-8A9D-2E60CFD9329D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
