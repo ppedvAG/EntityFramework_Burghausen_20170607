@@ -11,6 +11,7 @@ namespace HalloCodeFirst
     {
         static void Main(string[] args)
         {
+            EagerLoading();
 
             Console.ReadKey();
         }
@@ -296,6 +297,9 @@ namespace HalloCodeFirst
         {
             using (var context = new ErpContext())
             {
+
+                context.Database.Log = Console.WriteLine;
+
                 var customers = context.Customers.Include(c => c.Orders)
                                                  .Where(c => c.Orders.All(o => o.Price < 500))
                                                  .Take(150).ToList();
